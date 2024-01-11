@@ -1,0 +1,17 @@
+C:\Study\WPF-Learning-Project\Learning\Learing\Learing\bin\Debug\Learing.exe.config
+C:\Study\WPF-Learning-Project\Learning\Learing\Learing\bin\Debug\Learing.exe
+C:\Study\WPF-Learning-Project\Learning\Learing\Learing\bin\Debug\Learing.pdb
+C:\Study\WPF-Learning-Project\Learning\Learing\Learing\obj\Debug\Learing.csproj.AssemblyReference.cache
+C:\Study\WPF-Learning-Project\Learning\Learing\Learing\obj\Debug\MainWindow.g.cs
+C:\Study\WPF-Learning-Project\Learning\Learing\Learing\obj\Debug\App.g.cs
+C:\Study\WPF-Learning-Project\Learning\Learing\Learing\obj\Debug\Learing_MarkupCompile.cache
+C:\Study\WPF-Learning-Project\Learning\Learing\Learing\obj\Debug\Learing_MarkupCompile.lref
+C:\Study\WPF-Learning-Project\Learning\Learing\Learing\obj\Debug\MainWindow.baml
+C:\Study\WPF-Learning-Project\Learning\Learing\Learing\obj\Debug\Learing.g.resources
+C:\Study\WPF-Learning-Project\Learning\Learing\Learing\obj\Debug\Learing.Properties.Resources.resources
+C:\Study\WPF-Learning-Project\Learning\Learing\Learing\obj\Debug\Learing.csproj.GenerateResource.cache
+C:\Study\WPF-Learning-Project\Learning\Learing\Learing\obj\Debug\Learing.csproj.CoreCompileInputs.cache
+C:\Study\WPF-Learning-Project\Learning\Learing\Learing\obj\Debug\Learing.exe
+C:\Study\WPF-Learning-Project\Learning\Learing\Learing\obj\Debug\Learing.pdb
+C:\Study\WPF-Learning-Project\Learning\Learing\Learing\obj\Debug\View\Button.g.cs
+C:\Study\WPF-Learning-Project\Learning\Learing\Learing\obj\Debug\View\Button.baml
