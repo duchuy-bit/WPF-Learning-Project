@@ -1,0 +1,39 @@
+﻿<Window x:Class="Learing.View.RadioButton"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Learing.View"
+        mc:Ignorable="d"
+        Title="RadioButton" Height="450" Width="800">
+    <Grid>
+        <StackPanel>
+            <RadioButton IsChecked="True" Content="www.howkteam.com is your favorite website, don't you?"></RadioButton>
+            <RadioButton Content="www.howkteam.com is your most favorite website, don't you?"></RadioButton>
+            <RadioButton Content="www.howkteam.com is the best free education website"></RadioButton>
+
+            <Border x:Name="brMain" BorderThickness="3" BorderBrush="Black" Margin="5" Visibility="Collapsed">
+                <StackPanel>
+                    <RadioButton IsChecked="True" Content="www.howkteam.com is your favorite website, don't you?"></RadioButton>
+                    <RadioButton Content="www.howkteam.com is your most favorite website, don't you?"></RadioButton>
+                    <RadioButton Content="www.howkteam.com is the best free education website"></RadioButton>
+                </StackPanel>
+            </Border>
+            <Border BorderThickness="3" BorderBrush="Black" Margin="5">
+                <StackPanel>
+                    <RadioButton IsChecked="True" Content="www.howkteam.com is your favorite website, don't you?"></RadioButton>
+                    <RadioButton Content="www.howkteam.com is your most favorite website, don't you?"></RadioButton>
+                    <RadioButton Content="www.howkteam.com is the best free education website"></RadioButton>
+                </StackPanel>
+            </Border>
+            <Border BorderThickness="3" BorderBrush="Black" Margin="5">
+                <StackPanel>
+                    <RadioButton IsChecked="True" Content="www.howkteam.com is your favorite website, don't you?"></RadioButton>
+                    <RadioButton Content="www.howkteam.com is your most favorite website, don't you?"></RadioButton>
+                    <RadioButton Content="www.howkteam.com is the best free education website"></RadioButton>
+                </StackPanel>
+            </Border>
+            <Button Content="click" Click="Button_Click"></Button>
+        </StackPanel>
+    </Grid>
+</Window>

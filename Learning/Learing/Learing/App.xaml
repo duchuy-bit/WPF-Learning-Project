@@ -2,8 +2,20 @@
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:local="clr-namespace:Learing"
-             StartupUri="View/Button.xaml">
+             StartupUri="View/ListView_Basic.xaml">
     <Application.Resources>
-         
+        <!--<Style TargetType="Button" >
+            <Setter Property="Background" Value="Green"></Setter>
+            <Setter Property="Foreground" Value="White"></Setter>
+            <Setter Property="Width" Value="150"></Setter>
+        </Style>
+
+        <Style TargetType="TextBox" >
+            <Setter Property="Background" Value="Pink"></Setter>
+            <Setter Property="Foreground" Value="Black"></Setter>
+            <Setter Property="Width" Value="150"></Setter>
+        </Style>-->
+
+
     </Application.Resources>
 </Application>

@@ -15,11 +15,11 @@ using System.Windows.Shapes;
 namespace Learing.View
 {
     /// <summary>
-    /// Interaction logic for TextBlock.xaml
+    /// Interaction logic for Style.xaml
     /// </summary>
-    public partial class TextBlock : Window
+    public partial class Style : Window
     {
-        public TextBlock()
+        public Style()
         {
             InitializeComponent();
         }

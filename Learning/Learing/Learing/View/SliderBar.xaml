@@ -1,12 +1,13 @@
-﻿<Window x:Class="Learing.View.TextBlock"
+﻿<Window x:Class="Learing.View.SliderBar"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Learing.View"
         mc:Ignorable="d"
-        Title="TextBlock" Height="450" Width="800">
-    <Grid>
-        
-    </Grid>
+        Title="SliderBar" Height="450" Width="800">
+    <StackPanel>
+        <Slider x:Name="sldMain" Maximum="100" Value="50" Background="Aqua" ></Slider>
+        <TextBox x:Name="txbValueSlider" Text="{Binding Path=Value, ElementName=sldMain}"></TextBox>
+    </StackPanel>
 </Window>

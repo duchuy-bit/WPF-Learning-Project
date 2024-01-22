@@ -1,0 +1,18 @@
+- Grid: chia theo hàng và cột, 
+	Item của từng hàng(cột) luôn được căn giữa 
+	theo chiều ngang và dọc
+- StackPanel: hiển thị theo thứ tự từ trên xuống dưới
+	hoặc từ trái qua phải tùy theo 
+	thuộc tính Orientation="Horizontal"
+- WrapPanel: tương tự nhơ StackPanel nhưng 
+	các control sẽ tự động xuống hàng 
+	khi vượt quá chiều ngang của màn hình winform
+- DockPanel: 
+	+ khi không set thuộc tính Dock thì mặc định 
+	giống như StackPanel nhưng contro cuối cùng sẽ tự động
+	fill đầy màn hình
+	+ khi đã set thuộc tính Dock thì 
+	thằng nào được gọi trước sẽ che thằng gọi sau
+- Canvas: căn chỉnh các control theo thuộc tính 
+	Top và Left như position:"absolute" của CSS
+	Và cũng có thuộc tính zIndex

@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Study\WPF-Learning-Project\Learning\Learing\Learing\App.xaml
-3-1838810579
+17-895199509
 
-8253568531
+212012876424
 13-1310406943
-MainWindow.xaml;View\Button.xaml;View\TextBlock.xaml;
+MainWindow.xaml;StyleResource.xaml;View\Binding.xaml;View\Button.xaml;View\ComboBox.xaml;View\DataTemplate-WPF.xaml;View\Grid-WPF.xaml;View\Image.xaml;View\ListBox.xaml;View\ListView_Basic.xaml;View\ListView_GridView.xaml;View\ListView_Grouping.xaml;View\RadioButton.xaml;View\ScrollView.xaml;View\SliderBar.xaml;View\Style.xaml;View\TextBox.xaml;
 
 True
 
