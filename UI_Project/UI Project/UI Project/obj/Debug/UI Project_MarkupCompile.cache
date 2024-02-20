@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Study\WPF-Learning-Project\UI_Project\UI Project\UI Project\App.xaml
-2-558252558
+42055250323
 
-6912368988
+17-2037367186
 13-1310406943
-MainWindow.xaml;View\LoginView.xaml;
+CustomControls\BindablePasswordBox.xaml;MainWindow.xaml;View\LoginView.xaml;View\MainView.xaml;
 
 False
 

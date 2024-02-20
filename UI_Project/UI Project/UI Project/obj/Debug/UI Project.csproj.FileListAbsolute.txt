@@ -15,3 +15,8 @@ C:\Study\WPF-Learning-Project\UI_Project\UI Project\UI Project\obj\Debug\UI Proj
 C:\Study\WPF-Learning-Project\UI_Project\UI Project\UI Project\obj\Debug\UI Project.csproj.CoreCompileInputs.cache
 C:\Study\WPF-Learning-Project\UI_Project\UI Project\UI Project\obj\Debug\UI Project.exe
 C:\Study\WPF-Learning-Project\UI_Project\UI Project\UI Project\obj\Debug\UI Project.pdb
+C:\Study\WPF-Learning-Project\UI_Project\UI Project\UI Project\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Study\WPF-Learning-Project\UI_Project\UI Project\UI Project\obj\Debug\CustomControls\BindablePasswordBox.g.cs
+C:\Study\WPF-Learning-Project\UI_Project\UI Project\UI Project\obj\Debug\CustomControls\BindablePasswordBox.baml
+C:\Study\WPF-Learning-Project\UI_Project\UI Project\UI Project\obj\Debug\View\MainView.g.cs
+C:\Study\WPF-Learning-Project\UI_Project\UI Project\UI Project\obj\Debug\View\MainView.baml

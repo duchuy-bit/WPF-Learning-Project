@@ -64,6 +64,12 @@
     <Compile Include="View\ComboBox.xaml.cs">
       <DependentUpon>ComboBox.xaml</DependentUpon>
     </Compile>
+    <Compile Include="View\Command.xaml.cs">
+      <DependentUpon>Command.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Command_Implementing.xaml.cs">
+      <DependentUpon>Command_Implementing.xaml</DependentUpon>
+    </Compile>
     <Compile Include="View\DataTemplate-WPF.xaml.cs">
       <DependentUpon>DataTemplate-WPF.xaml</DependentUpon>
     </Compile>
@@ -79,11 +85,17 @@
     <Compile Include="View\ListView_Basic.xaml.cs">
       <DependentUpon>ListView_Basic.xaml</DependentUpon>
     </Compile>
+    <Compile Include="View\ListView_Filter.xaml.cs">
+      <DependentUpon>ListView_Filter.xaml</DependentUpon>
+    </Compile>
     <Compile Include="View\ListView_GridView.xaml.cs">
       <DependentUpon>ListView_GridView.xaml</DependentUpon>
     </Compile>
     <Compile Include="View\ListView_Grouping.xaml.cs">
       <DependentUpon>ListView_Grouping.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\ListView_Sort.xaml.cs">
+      <DependentUpon>ListView_Sort.xaml</DependentUpon>
     </Compile>
     <Compile Include="View\RadioButton.xaml.cs">
       <DependentUpon>RadioButton.xaml</DependentUpon>
@@ -99,6 +111,27 @@
     </Compile>
     <Compile Include="View\TextBox.xaml.cs">
       <DependentUpon>TextBox.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\TreeView.xaml.cs">
+      <DependentUpon>TreeView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\TreeView_Binding.xaml.cs">
+      <DependentUpon>TreeView_Binding.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\TreeView_Lazyloading.xaml.cs">
+      <DependentUpon>TreeView_Lazyloading.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Trigger.xaml.cs">
+      <DependentUpon>Trigger.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Trigger_Multiple.xaml.cs">
+      <DependentUpon>Trigger_Multiple.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Update_Source_Trigger.xaml.cs">
+      <DependentUpon>Update_Source_Trigger.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Value_Converter.xaml.cs">
+      <DependentUpon>Value_Converter.xaml</DependentUpon>
     </Compile>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
@@ -128,6 +161,14 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="View\Command.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Command_Implementing.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="View\DataTemplate-WPF.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -148,11 +189,19 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="View\ListView_Filter.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="View\ListView_GridView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="View\ListView_Grouping.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\ListView_Sort.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -173,6 +222,34 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="View\TextBox.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\TreeView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\TreeView_Binding.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\TreeView_Lazyloading.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Trigger.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Trigger_Multiple.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Update_Source_Trigger.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Value_Converter.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

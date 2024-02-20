@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Study\WPF-Learning-Project\Learning\Learing\Learing\App.xaml
-17-895199509
+28-808524105
 
-212012876424
+32-1690175096
 13-1310406943
-MainWindow.xaml;StyleResource.xaml;View\Binding.xaml;View\Button.xaml;View\ComboBox.xaml;View\DataTemplate-WPF.xaml;View\Grid-WPF.xaml;View\Image.xaml;View\ListBox.xaml;View\ListView_Basic.xaml;View\ListView_GridView.xaml;View\ListView_Grouping.xaml;View\RadioButton.xaml;View\ScrollView.xaml;View\SliderBar.xaml;View\Style.xaml;View\TextBox.xaml;
+MainWindow.xaml;StyleResource.xaml;View\Binding.xaml;View\Button.xaml;View\ComboBox.xaml;View\Command.xaml;View\Command_Implementing.xaml;View\DataTemplate-WPF.xaml;View\Grid-WPF.xaml;View\Image.xaml;View\ListBox.xaml;View\ListView_Basic.xaml;View\ListView_Filter.xaml;View\ListView_GridView.xaml;View\ListView_Grouping.xaml;View\ListView_Sort.xaml;View\RadioButton.xaml;View\ScrollView.xaml;View\SliderBar.xaml;View\Style.xaml;View\TextBox.xaml;View\TreeView.xaml;View\TreeView_Binding.xaml;View\TreeView_Lazyloading.xaml;View\Trigger.xaml;View\Trigger_Multiple.xaml;View\Update_Source_Trigger.xaml;View\Value_Converter.xaml;
 
 True
 

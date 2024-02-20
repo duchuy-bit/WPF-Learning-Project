@@ -4,6 +4,7 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:UI_Project.View"
+        xmlns:viewModel="clr-namespace:UI_Project.ViewModels" xmlns:customcontrols="clr-namespace:UI_Project.CustomControls"
         mc:Ignorable="d"
         Title="LoginView" Height="550" Width="800"
         WindowStyle="None"
@@ -13,6 +14,18 @@
         Background="Transparent"
         AllowsTransparency="True"
         >
+    <Window.DataContext>
+        <viewModel:LoginViewModel/>
+    </Window.DataContext>
+
+    <Window.Resources>
+        <BooleanToVisibilityConverter x:Key="BooleanToVisibility"/>
+    </Window.Resources>
+
+    <Window.Visibility>
+        <Binding Path="IsViewVisible" Mode="TwoWay" Converter="{StaticResource BooleanToVisibility}" />
+    </Window.Visibility>
+    
     <Border CornerRadius="12" >
         <Border.Background>
             <ImageBrush ImageSource="/Images/back-image.jpg" Stretch="None"/>
@@ -155,6 +168,7 @@
                                Margin="0 35 0 0"/>
 
                     <TextBox x:Name="tbUserName" 
+                             Text="{Binding Username, UpdateSourceTrigger=PropertyChanged}"
                              FontSize="13"
                              FontFamily="Montserrat"
                              FontWeight="Medium"
@@ -165,7 +179,7 @@
                              Height="28"
                              VerticalAlignment="Center"
                              Margin="0 5 0 0"
-                             Padding="20 5 0 0">
+                             Padding="20 5 0 0" >
                         <TextBox.Background>
                             <ImageBrush ImageSource="/Images/user-icon.png" 
                                         Stretch="None"
@@ -180,33 +194,29 @@
                                FontFamily="Montserrat"
                                Margin="0 15 0 0"/>
 
-                    <PasswordBox x:Name="tbPassword" 
-                             FontSize="13"
-                             FontFamily="Montserrat"
-                             FontWeight="Medium"
-                             Foreground="White"
-                             CaretBrush="LightGray"
-                             BorderThickness="0 0 0 1"
-                             BorderBrush="DarkGray"
-                             Height="28"
-                             VerticalAlignment="Center"
-                             Margin="0 5 0 0"
-                             Padding="20 5 0 0">
-                        <PasswordBox.Background>
-                            <ImageBrush ImageSource="/Images/key-icon.png" 
-                                Stretch="None"
-                                AlignmentX="Left"/>
-                        </PasswordBox.Background>
-                    </PasswordBox>
+                    <customcontrols:BindablePasswordBox 
+                                Password="{Binding Password, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" 
+                                Height="28"
+                                Margin="0 5 0 0">
+                    </customcontrols:BindablePasswordBox>
 
-                    <Button x:Name="btnLogin" 
+
+                    <TextBlock Text="{Binding ErrorMessage}" 
+                               FontSize="12"
+                               Foreground="#D7596D"
+                               FontWeight="Medium"
+                               FontFamily="Montserrat"
+                               Margin="0 10 0 0"
+                               TextWrapping="Wrap"/>
+
+                    <Button x:Name="btnLogin"
+                            Command="{Binding LoginCommand}"
                             Content="LOG IN"
                             Foreground="White"
                             FontSize="16"
                             Cursor="Hand"
                             FontFamily="Montserrat"
-                            Click="btnLogin_Click"
-                            Margin="0 50 0 0"
+                            Margin="0 30 0 0"
                     >
                         <Button.Style>
                             <Style TargetType="Button">
