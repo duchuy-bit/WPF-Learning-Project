@@ -20,3 +20,12 @@ C:\Study\WPF-Learning-Project\UI_Project\UI Project\UI Project\obj\Debug\CustomC
 C:\Study\WPF-Learning-Project\UI_Project\UI Project\UI Project\obj\Debug\CustomControls\BindablePasswordBox.baml
 C:\Study\WPF-Learning-Project\UI_Project\UI Project\UI Project\obj\Debug\View\MainView.g.cs
 C:\Study\WPF-Learning-Project\UI_Project\UI Project\UI Project\obj\Debug\View\MainView.baml
+C:\Study\WPF-Learning-Project\UI_Project\UI Project\UI Project\obj\Debug\Styles\UIColors.baml
+C:\Study\WPF-Learning-Project\UI_Project\UI Project\UI Project\obj\Debug\App.baml
+C:\Study\WPF-Learning-Project\UI_Project\UI Project\UI Project\obj\Debug\Styles\ButtonStyles.baml
+C:\Study\WPF-Learning-Project\UI_Project\UI Project\UI Project\bin\Debug\FontAwesome.Sharp.dll
+C:\Study\WPF-Learning-Project\UI_Project\UI Project\UI Project\obj\Debug\UI Project.csproj.CopyComplete
+C:\Study\WPF-Learning-Project\UI_Project\UI Project\UI Project\obj\Debug\View\HomeView.g.cs
+C:\Study\WPF-Learning-Project\UI_Project\UI Project\UI Project\obj\Debug\View\UserView.g.cs
+C:\Study\WPF-Learning-Project\UI_Project\UI Project\UI Project\obj\Debug\View\HomeView.baml
+C:\Study\WPF-Learning-Project\UI_Project\UI Project\UI Project\obj\Debug\View\UserView.baml
