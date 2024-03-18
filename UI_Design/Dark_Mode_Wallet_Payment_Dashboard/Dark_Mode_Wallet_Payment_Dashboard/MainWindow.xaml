@@ -1,0 +1,181 @@
+﻿<Window x:Class="Dark_Mode_Wallet_Payment_Dashboard.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Dark_Mode_Wallet_Payment_Dashboard"
+        mc:Ignorable="d"
+        xmlns:fa="http://schemas.fontawesome.io/icons/"
+        Title="MainWindow" Height="690" Width="1180"
+        WindowStartupLocation="CenterScreen"
+        AllowsTransparency="True"   Background="Transparent"
+        WindowStyle="None">
+    <Grid>
+        <!--Background Grid-->
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="auto"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <Border Width="220" CornerRadius="25 0 0 25">
+                <Border.Background>
+                    <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
+                        <GradientStop Color="#343155" Offset="0"/>
+                        <GradientStop Color="#3b2e58" Offset="1"/>
+                    </LinearGradientBrush>
+                </Border.Background>
+            </Border>
+
+            <Border  Grid.Column="1" CornerRadius="0 25 25 0">
+                <Border.Background>
+                    <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
+                        <GradientStop Color="#3e3a65" Offset="0"/>
+                        <GradientStop Color="#473765" Offset="1"/>
+                    </LinearGradientBrush>
+                </Border.Background>
+            </Border>
+        </Grid>
+        
+        <!--Controls-->
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="auto"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <!--Main Menu-->
+            <StackPanel Width="240">
+                <StackPanel Orientation="Horizontal" Margin="0 50 20 40" HorizontalAlignment="Center">
+                    <fa:ImageAwesome Icon="CheckCircle" Foreground="white" Width="30" />
+                    <TextBlock Text="Wally" 
+                               FontSize="20" FontWeight="Bold" 
+                               VerticalAlignment="Center" 
+                               Foreground="White" 
+                               Margin="10 0 0 0"/>
+                </StackPanel>
+
+                <Button Style="{StaticResource activeMenuButton}" >
+                    <Grid>
+                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" >
+                            <fa:ImageAwesome Icon="FolderOutline" Style="{StaticResource buttonIcon}" />
+                            <TextBlock Text="Wallet" Style="{StaticResource buttonText}" />
+                        </StackPanel>
+
+                        <fa:ImageAwesome Icon="AngleRight" Style="{StaticResource buttonIconExpanded}"
+                                         HorizontalAlignment="Right"  Visibility="Visible"/>
+                    </Grid>
+                </Button>
+
+                <Button Style="{StaticResource menuButton}" >
+                    <Grid>
+                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" >
+                            <fa:ImageAwesome Icon="BellOutline" Style="{StaticResource buttonIcon}" />
+                            <TextBlock Text="Notifications" Style="{StaticResource buttonText}" />
+                        </StackPanel>
+
+                        <fa:ImageAwesome Icon="AngleRight" Style="{StaticResource buttonIconExpanded}" HorizontalAlignment="Right" />
+                    </Grid>
+                </Button>
+
+                <Button Style="{StaticResource menuButton}" >
+                    <Grid>
+                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" >
+                            <fa:ImageAwesome Icon="Money" Style="{StaticResource buttonIcon}" />
+                            <TextBlock Text="Deposit" Style="{StaticResource buttonText}" />
+                        </StackPanel>
+
+                        <fa:ImageAwesome Icon="AngleRight" Style="{StaticResource buttonIconExpanded}" HorizontalAlignment="Right" />
+                    </Grid>
+                </Button>
+
+                <Button Style="{StaticResource menuButton}" >
+                    <Grid>
+                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" >
+                            <fa:ImageAwesome Icon="Clone" Style="{StaticResource buttonIcon}" />
+                            <TextBlock Text="Record" Style="{StaticResource buttonText}" />
+                        </StackPanel>
+
+                        <fa:ImageAwesome Icon="AngleRight" Style="{StaticResource buttonIconExpanded}" HorizontalAlignment="Right" />
+                    </Grid>
+                </Button>
+
+                <Button Style="{StaticResource menuButton}" >
+                    <Grid>
+                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" >
+                            <fa:ImageAwesome Icon="CommentOutline" Style="{StaticResource buttonIcon}" />
+                            <TextBlock Text="Messages" Style="{StaticResource buttonText}" />
+                        </StackPanel>
+
+                        <fa:ImageAwesome Icon="AngleRight" Style="{StaticResource buttonIconExpanded}" HorizontalAlignment="Right" />
+                    </Grid>
+                </Button>
+
+                <Button Style="{StaticResource menuButton}" >
+                    <Grid>
+                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" >
+                            <fa:ImageAwesome Icon="Television" Style="{StaticResource buttonIcon}" />
+                            <TextBlock Text="Monitoring" Style="{StaticResource buttonText}" />
+                        </StackPanel>
+
+                        <fa:ImageAwesome Icon="AngleRight" Style="{StaticResource buttonIconExpanded}" HorizontalAlignment="Right" />
+                    </Grid>
+                </Button>
+
+                <Button Style="{StaticResource menuButton}" >
+                    <Grid>
+                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" >
+                            <fa:ImageAwesome Icon="CreditCard" Style="{StaticResource buttonIcon}" />
+                            <TextBlock Text="My Cards" Style="{StaticResource buttonText}" />
+                        </StackPanel>
+
+                        <fa:ImageAwesome Icon="AngleRight" Style="{StaticResource buttonIconExpanded}" HorizontalAlignment="Right" />
+                    </Grid>
+                </Button>
+
+                <Separator Background="#e0e0e0" Opacity="0.5" Margin="50 15 60 15"/>
+                
+                <Button Style="{StaticResource menuButton}">
+                    <Grid>
+                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" >
+                            <fa:ImageAwesome Icon="UserOutline" Style="{StaticResource buttonIcon}" />
+                            <TextBlock Text="Accounts" Style="{StaticResource buttonText}" />
+                        </StackPanel>
+
+                        <fa:ImageAwesome Icon="AngleRight" Style="{StaticResource buttonIconExpanded}" HorizontalAlignment="Right" />
+                    </Grid>
+                </Button>
+
+                <Button Style="{StaticResource menuButton}">
+                    <Grid>
+                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" >
+                            <fa:ImageAwesome Icon="CircleOutlineNotch" Style="{StaticResource buttonIcon}" />
+                            <TextBlock Text="Logout" Style="{StaticResource buttonText}" />
+                        </StackPanel>
+
+                        <fa:ImageAwesome Icon="AngleRight" Style="{StaticResource buttonIconExpanded}" HorizontalAlignment="Right" />
+                    </Grid>
+                </Button>
+
+            </StackPanel>
+            
+            <!--Transaction Panel-->
+            <Grid Grid.Column="1">
+                <!--Main Panel-->
+                <Border Margin="20 120 20 20">
+                    <StackPanel Margin="10 88 10 20">
+                        
+                    </StackPanel>
+                </Border>
+                
+            </Grid>
+            
+            
+
+        </Grid>
+        
+        
+        
+    </Grid>
+</Window>

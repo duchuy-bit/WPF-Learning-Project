@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34309.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dark_Mode_Wallet_Payment_Dashboard", "Dark_Mode_Wallet_Payment_Dashboard\Dark_Mode_Wallet_Payment_Dashboard.csproj", "{DFBB3ECA-FC02-49CB-898B-88A475DF7342}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DFBB3ECA-FC02-49CB-898B-88A475DF7342}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFBB3ECA-FC02-49CB-898B-88A475DF7342}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFBB3ECA-FC02-49CB-898B-88A475DF7342}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFBB3ECA-FC02-49CB-898B-88A475DF7342}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6DF934E1-F655-49C8-A244-4EA0FA4F422B}
+	EndGlobalSection
+EndGlobal

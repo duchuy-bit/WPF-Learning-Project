@@ -1,0 +1,31 @@
+C:\Study\WPF-Learning-Project\UI_Project\UI Project\UI Project\bin\Debug\UI Project.exe.config
+C:\Study\WPF-Learning-Project\UI_Project\UI Project\UI Project\bin\Debug\UI Project.exe
+C:\Study\WPF-Learning-Project\UI_Project\UI Project\UI Project\bin\Debug\UI Project.pdb
+C:\Study\WPF-Learning-Project\UI_Project\UI Project\UI Project\obj\Debug\UI Project.csproj.AssemblyReference.cache
+C:\Study\WPF-Learning-Project\UI_Project\UI Project\UI Project\obj\Debug\MainWindow.g.cs
+C:\Study\WPF-Learning-Project\UI_Project\UI Project\UI Project\obj\Debug\View\LoginView.g.cs
+C:\Study\WPF-Learning-Project\UI_Project\UI Project\UI Project\obj\Debug\App.g.cs
+C:\Study\WPF-Learning-Project\UI_Project\UI Project\UI Project\obj\Debug\UI Project_MarkupCompile.cache
+C:\Study\WPF-Learning-Project\UI_Project\UI Project\UI Project\obj\Debug\UI Project_MarkupCompile.lref
+C:\Study\WPF-Learning-Project\UI_Project\UI Project\UI Project\obj\Debug\MainWindow.baml
+C:\Study\WPF-Learning-Project\UI_Project\UI Project\UI Project\obj\Debug\View\LoginView.baml
+C:\Study\WPF-Learning-Project\UI_Project\UI Project\UI Project\obj\Debug\UI Project.g.resources
+C:\Study\WPF-Learning-Project\UI_Project\UI Project\UI Project\obj\Debug\UI_Project.Properties.Resources.resources
+C:\Study\WPF-Learning-Project\UI_Project\UI Project\UI Project\obj\Debug\UI Project.csproj.GenerateResource.cache
+C:\Study\WPF-Learning-Project\UI_Project\UI Project\UI Project\obj\Debug\UI Project.csproj.CoreCompileInputs.cache
+C:\Study\WPF-Learning-Project\UI_Project\UI Project\UI Project\obj\Debug\UI Project.exe
+C:\Study\WPF-Learning-Project\UI_Project\UI Project\UI Project\obj\Debug\UI Project.pdb
+C:\Study\WPF-Learning-Project\UI_Project\UI Project\UI Project\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Study\WPF-Learning-Project\UI_Project\UI Project\UI Project\obj\Debug\CustomControls\BindablePasswordBox.g.cs
+C:\Study\WPF-Learning-Project\UI_Project\UI Project\UI Project\obj\Debug\CustomControls\BindablePasswordBox.baml
+C:\Study\WPF-Learning-Project\UI_Project\UI Project\UI Project\obj\Debug\View\MainView.g.cs
+C:\Study\WPF-Learning-Project\UI_Project\UI Project\UI Project\obj\Debug\View\MainView.baml
+C:\Study\WPF-Learning-Project\UI_Project\UI Project\UI Project\obj\Debug\Styles\UIColors.baml
+C:\Study\WPF-Learning-Project\UI_Project\UI Project\UI Project\obj\Debug\App.baml
+C:\Study\WPF-Learning-Project\UI_Project\UI Project\UI Project\obj\Debug\Styles\ButtonStyles.baml
+C:\Study\WPF-Learning-Project\UI_Project\UI Project\UI Project\bin\Debug\FontAwesome.Sharp.dll
+C:\Study\WPF-Learning-Project\UI_Project\UI Project\UI Project\obj\Debug\UI Project.csproj.CopyComplete
+C:\Study\WPF-Learning-Project\UI_Project\UI Project\UI Project\obj\Debug\View\HomeView.g.cs
+C:\Study\WPF-Learning-Project\UI_Project\UI Project\UI Project\obj\Debug\View\UserView.g.cs
+C:\Study\WPF-Learning-Project\UI_Project\UI Project\UI Project\obj\Debug\View\HomeView.baml
+C:\Study\WPF-Learning-Project\UI_Project\UI Project\UI Project\obj\Debug\View\UserView.baml

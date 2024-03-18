@@ -1,0 +1,9 @@
+C:\Study\WPF-Learning-Project\UI_Design\UI_Design_Project\UI_Design_Project\obj\Debug\UI_Design_Project.csproj.AssemblyReference.cache
+C:\Study\WPF-Learning-Project\UI_Design\UI_Design_Project\UI_Design_Project\obj\Debug\MainWindow.g.cs
+C:\Study\WPF-Learning-Project\UI_Design\UI_Design_Project\UI_Design_Project\obj\Debug\View\Flip_Animation.g.cs
+C:\Study\WPF-Learning-Project\UI_Design\UI_Design_Project\UI_Design_Project\obj\Debug\View\Flip_Animation\BackSide.g.cs
+C:\Study\WPF-Learning-Project\UI_Design\UI_Design_Project\UI_Design_Project\obj\Debug\View\Flip_Animation\FrontSide.g.cs
+C:\Study\WPF-Learning-Project\UI_Design\UI_Design_Project\UI_Design_Project\obj\Debug\App.g.cs
+C:\Study\WPF-Learning-Project\UI_Design\UI_Design_Project\UI_Design_Project\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Study\WPF-Learning-Project\UI_Design\UI_Design_Project\UI_Design_Project\obj\Debug\UI_Design_Project_MarkupCompile.cache
+C:\Study\WPF-Learning-Project\UI_Design\UI_Design_Project\UI_Design_Project\obj\Debug\UI_Design_Project_MarkupCompile.lref
